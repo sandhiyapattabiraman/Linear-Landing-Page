@@ -44,7 +44,7 @@ function Cards() {
                 {cards.map((card, idx) => (
                     <div
                         key={idx}
-                        className="group bg-[#18181A] rounded-[2.5rem] group-hover:bg-zinc-800 hover:bg-zinc-800 flex flex-col justify-between items-start p-6 w-[460px] h-[350px] relative shadow-[0_8px_32px_0_rgba(0,0,0,0.35)] cursor-pointer transition-all"
+                        className="group bg-[#18181A] rounded-[2.5rem] group-hover:bg-zinc-800 hover:bg-zinc-800 flex flex-col justify-between items-start px-8 pb-4 w-auto h-auto relative shadow-[0_8px_32px_0_rgba(0,0,0,0.35)] cursor-pointer transition-all"
                         onClick={e => {
                             setExpandedCard(idx);
                         }}
